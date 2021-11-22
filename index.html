@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="top-bar">
+            <i class="fas fa-chevron-down"></i>
+            <span>Now playing</span>
+            <i class="fas fa-ellipsis-h"></i>
+        </div>
+        <div class="image">
+            <img src="" alt="">
+        </div>
+        <div class="song-detail">
+            <h2 class="name"></h2>
+            <h4 class="artist"></h4>
+        </div>
+        <div class="progress_area">
+            <div class="progess_bar">
+                <span></span>
+            </div>
+            <div class="timer">
+                <span class="current"></span>
+                <span class="duration"></span>
+            </div>
+            <audio id="main_audio" src=""></audio>
+        </div>
+        <div class="controls">
+            <i id="repeat-plist" class="material-icons" title="Song looped">repeat</i>
+            <i id="prev" class="material-icons">skip_previous</i>
+            <div class="play_pause">
+                <i class="material-icons">play_arrow</i>
+            </div>
+            <i id="next" class="material-icons">skip_next</i>
+            <i id="more_music" class="material-icons">queue_music</i>
+        </div>
+
+    <!-- Music list start here -->
+        <div class="music_list">
+            <div class="list_top_bar">
+                <i id="more_music" class="material-icons">queue_music</i>
+                <p class="name_list">Music list</p>
+                <i id="close" class="material-icons">close</i>
+            </div>
+            <div class="list_bottom">
+                <div class="song_list">
+                    <div class="song_info">
+                        <p id="song_name">High Rated Gabru</p>
+                        <p id="song_artist">Guru Randhawa</p>
+                    </div>
+                    <div class="song_duration">
+                        3:30
+                    </div>
+                </div>
+                <div class="song_list">
+                    <div class="song_info">
+                        <p id="song_name">High Rated Gabru</p>
+                        <p id="song_artist">Guru Randhawa</p>
+                    </div>
+                    <div class="song_duration">
+                        3:30
+                    </div>
+                </div>
+                <div class="song_list">
+                    <div class="song_info">
+                        <p id="song_name">High Rated Gabru</p>
+                        <p id="song_artist">Guru Randhawa</p>
+                    </div>
+                    <div class="song_duration">
+                        3:30
+                    </div>
+                </div>
+                <div class="song_list">
+                    <div class="song_info">
+                        <p id="song_name">High Rated Gabru</p>
+                        <p id="song_artist">Guru Randhawa</p>
+                    </div>
+                    <div class="song_duration">
+                        3:30
+                    </div>
+                </div>
+                <div class="song_list">
+                    <div class="song_info">
+                        <p id="song_name">High Rated Gabru</p>
+                        <p id="song_artist">Guru Randhawa</p>
+                    </div>
+                    <div class="song_duration">
+                        3:30
+                    </div>
+                </div>
+                <div class="song_list">
+                    <div class="song_info">
+                        <p id="song_name">High Rated Gabru</p>
+                        <p id="song_artist">Guru Randhawa</p>
+                    </div>
+                    <div class="song_duration">
+                        3:30
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./all_music_list.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
